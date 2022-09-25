@@ -7,6 +7,7 @@ import { Wrapper } from './style';
 
 function Dashboard() {
   const { moviesData } = useMovies();
+  // eslint-disable-next-line no-console
   console.log('moviesData ', moviesData);
   return (
     <BaseLayout>

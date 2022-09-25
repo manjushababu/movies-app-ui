@@ -37,7 +37,7 @@ function EditMovie() {
   };
 
   return (
-    data.id && (
+    data?.id && (
       <BaseLayout>
         <Wrapper>
           <InputWrapper>
