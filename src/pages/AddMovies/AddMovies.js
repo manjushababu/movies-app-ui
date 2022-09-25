@@ -16,7 +16,7 @@ function AddMovies() {
   const [successInfo, setSuccessInfo] = useState('');
   const [showInfo, setShowInfo] = useState(false);
   const [movie, setMovie] = useState({
-    id: moviesData.length,
+    id: (moviesData.length + 1).toString(),
   });
 
   const handleClose = (event, reason) => {

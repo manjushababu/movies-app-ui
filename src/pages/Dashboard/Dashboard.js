@@ -7,7 +7,7 @@ import { Wrapper } from './style';
 
 function Dashboard() {
   const { moviesData } = useMovies();
-
+  console.log('moviesData ', moviesData);
   return (
     <BaseLayout>
       <Wrapper>
